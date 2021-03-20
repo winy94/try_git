@@ -1,16 +1,1 @@
-correo: oscar94@hotmail.com
-contraseña: palerma
-IP: ::1
-=========================
-correo: oscar94@hotmail.com
-contraseña: winy
-IP: ::1
-=========================
-correo: oscar94@hotmail.com
-contraseña: palerma
-IP: ::1
-=========================
-correo: mwiny@gmail.co
-contraseña: dfffd
-IP: ::1
-=========================
+
