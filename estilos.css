@@ -1,0 +1,268 @@
+* {
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+/*celular eliminar*/
+header .header {
+	display:none;
+}
+main form {
+	display:none;
+}
+
+
+/*fin*/
+body {
+	background:#EBEDF4;
+}
+.contenedor {
+	background:#E1E4EF;
+	width:100%;
+	height:auto;
+}
+/*HEADER*/
+header img {
+	width:170px;
+	height:34px;
+	margin:20px;
+	margin-left:120px;
+}
+header {
+	background:#3B5998;
+	width:100%;
+	height:85px;
+}
+header form {
+	padding-top:15px;
+	font-size:13px;
+	font-family:arial;
+	color:white;
+	float:right;
+	width:40%;
+	margin-right:100px;
+}
+header form input {
+	justify-content:space-between;
+}
+label, input{
+	margin-right:10px;
+	margin-bottom:2px;
+	margin-top:2px;
+}
+header input  {
+      padding:2px;
+      border:0px solid black;
+}
+.pregunta {
+	text-decoration:none;
+	color:#9cb4d8;
+}
+#u_0_5 {
+	cursor:pointer;
+	border:none;
+	color:white;
+	background:#365899;
+	border:1px solid #29487D;
+	padding:4px;
+}
+
+/*MAIN*/
+main {
+	float:left;
+    
+	width:50%;
+	padding:50px;
+}
+main p {
+	font-family:arial;
+	color:#0E385F;
+	font-weight:bold;
+}
+/*ASIDE*/
+aside {
+	margin-top:30px;
+	float:right;
+	width:45%;
+	font-family:arial;
+}
+aside h1 {
+	font-size:35px;
+}
+aside h1 , h3 {
+   color:#333333;
+   	margin-bottom:5px;
+}
+aside form {
+	width:90%;
+	max-width:400px;
+}
+aside form .btn-50 , .btn-100 {
+    padding:5px;
+    margin-bottom:7px;
+	font-size:20px;
+	border:1px solid #BDC7D8;
+	border-radius:5px;
+}
+.btn-50 {
+	width:45%;
+}
+.btn-100 {
+	width:94%;
+}
+.nacimiento {
+	margin-top:10px;
+}
+._5dba {
+	padding:5px;
+	margin-bottom:10px;
+}
+._5k_5 {
+   justify-content:space-between;
+}
+#bootom {
+	margin-bottom:15px;
+}
+.question {
+	width:10%;
+	float:right;
+	margin-right:50px;
+	display:block;
+	width:40%;
+	text-decoration:none;
+	color:#365899;
+	font-size:12px;
+}
+.question:hover {
+      text-decoration:underline;
+}
+.click {
+	margin-top:5px;
+	margin-bottom:10px;
+	font-size:13px;
+	color:gray;
+}
+.abrir {
+	display:block;
+	font-size:20px;
+	font-weight:bold;
+	color:white;
+	border:none;
+	border:1px solid #3B6E22;
+	border-radius:5px;
+	padding:7px;
+	cursor:pointer;
+	background:#70AE5B;
+}
+header .header {
+	visibility:0%;
+}
+.main  {
+	visibility:0%;
+}
+.idioma {
+	display:none;
+}
+
+@media screen and (max-width:600px) {
+	.main {
+		visibility:100%;
+	}
+    header .form-uno {
+        display:none;
+    }
+    header .facebook {
+    	display:none;
+    }
+    header {
+    	height:200px;
+    	background:url(img/header2.png);
+    	background-repeat:no-repeat;
+    	background-size:100% 100%;
+    }
+    aside {
+    	display:none;
+    }
+    main {
+    	box-shadow:0px -4px 10px 0px #253C63;
+    	border-top:0.5px solid #253C63;
+    	background:#FFFFFF;
+    	width:100%;
+    	height:100%;
+    }
+    .main p , img {
+    	display:none;
+    }
+    .main form {
+    	display:block;
+    }
+    .main .centrar {
+       margin:auto;
+       width:100%;
+    }
+    main {
+    	display:block;
+    	width:100%;
+    	padding:0;
+    }
+    main form {
+    }
+    .main input {
+    	background:#385B95;
+    	border:none;
+    	border-bottom:3px solid #385B95;
+    	color:white;
+    	font-size:25px;
+    	padding:10px;
+    	width:100%;
+    }
+    .celular-sesion {
+    	cursor:pointer;
+    	display:block;
+    	margin-top:90px;
+    }
+    .olvidar {
+        margin-top:40px;
+    	display:block;
+    	font-family:arial;
+    	text-decoration:none;
+    	color:#44659B;
+    	font-weight:bold;
+    	text-align:center;
+    }
+    .nueva-cuenta {
+    	background:#40B428;
+    	text-align:center;
+    	margin-top:15%;
+    	font-size:16px;
+    	padding:10px;
+    	font-weight:bold;
+    	display:block;
+    	font-family:arial;
+    	color:#fff;
+    	text-decoration:none;
+    }
+    main .main {
+    	padding:20px;
+    }
+    .main input[type="text"], .main input[type="password"] {
+    	margin-top:25px;
+    	border:none;
+    	color:#000;
+    	width:100%;
+    	outline:none;
+    	background:none;
+    	border-bottom:2px solid grey;
+    }
+    .main input[type="text"]:focus , .main input[type="password"]:focus {
+    	border-bottom:2px solid #719BE8;
+    }
+    .idioma {
+    	display:table;
+    	margin:auto;
+    	font-family:arial;
+    	text-decoration:none;
+    	color:grey;
+    	font-weight:bold;
+    }
+}
